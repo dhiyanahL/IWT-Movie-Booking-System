@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: linear-gradient(0deg, #08AEEA 0%, #2AF598 80%);
+    margin: 0px 50px;
+    
+}
+
+
+.user-profile {
+    text-align: center;
+    margin: 50px 0;
+    padding :100px;
+    padding-top:20px;
+    /*margin-top:20px;*/
+    font-family :'Quicksand', sans-serif;
+    /*margin-top: 0 auto;*/
+    margin-bottom: 50px;
+    margin:0 auto;
+}
+
+
+.welcome-message {
+    font-size: 30px;
+    text-align : center;
+    align-items: center;;
+    margin-bottom: 10px;
+    background-color: #42A59F;
+    display : flex;
+    color : white;
+    text-shadow: 2px 2px 4px black;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height : 100px;
+    margin-top: 20px;
+    margin: 0 auto; 
+    border-radius: 4px;
+}
+.update {
+ 
+    background-color: #08AEEA;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.logout {
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.update, .logout {
+    
+    border: none;
+    padding: 10px 0; 
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    width: 35%;
+    font-size: 20px;
+    text-align: center;
+    height: auto; 
+}
+a{
+    color : white;
+}
+
+
+table {
+    width: 80%;
+    height : 80%;
+    margin: 20px auto;
+    margin-bottom: 0;
+    border-collapse: collapse;
+    border: 2px solid black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+table th, table td {
+    padding: 12px 20px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+table th {
+    background-color: #C0D3E4;
+    font-weight: bold;
+}
+
+
+table tr:nth-child(even) {
+ 
+    background-color: #42A59F;
+}
+
+table tr:nth-child(odd) {
+ 
+    background-color: #A3F7B5;
+}
+
+
+.label {
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+}
+
+
+.value {
+    width: 70%;
+}
+
+
+
+
+

@@ -1,0 +1,457 @@
+
+    
+
+/* Header Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family :'Quicksand', sans-serif;
+  background: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+  background-size:cover;
+  font-family :'Quicksand', sans-serif;
+
+}
+
+header {
+  
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1; 
+  background-color: #51BEA1;
+  
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  left: 0;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0 20px;
+  
+}
+
+.header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color:#A3F7B5 ;
+  padding: 15px 20px;
+  font-size: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-right: auto;
+  text-shadow: 1px 1px 1px black,
+  1px 2px 1px black;
+  
+}
+
+.slogan {
+  font-size: 19px;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 35%;
+  font-family: monospace;
+  font-weight: italic;
+  color: whitesmoke;
+  text-shadow: 0.5px 0.5px 0.5px whitesmoke;
+  
+}
+  
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 50px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #707070;
+}
+
+.buy-tickets {
+  background-color: #EE7C54;
+  padding: 8px 16px;
+  border-radius: 5px;
+  
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.user-actions a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.hover-effect:hover {
+  color: #707070;
+}
+
+@media (max-width: 700px){
+  .header-bottom{
+      flex-direction: column;
+  }
+  .user-actionst, .nav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+}
+
+  .password-reset-form {
+    margin-bottom: 10px;
+    width: 60% ;
+    height: 100px ;
+    margin-left: 30px;
+    margin-top: 20px;
+   
+  }
+  
+  .password-reset-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .password-reset-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .password-reset-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .password-reset-form button 
+  { background-color: #000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+.style 
+{
+    border: 3px solid black; 
+    width: 30% ;
+    height: 750px ;
+    margin-left: 30px;
+    float: left;
+    margin-top: 10%;
+   
+}
+
+
+h1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+image img
+{
+    border-radius: 50% ;
+    width: 100px ;
+    height: 100px;
+    
+    
+}
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container
+{
+  height: 50px;
+  position: relative;
+  
+}
+
+.vertical-center
+{
+  margin-left: 180px;
+  position: absolute;
+  border: none;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform:  translateY(-50%);
+}
+
+h3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  margin-left: 5px;
+
+}
+
+p
+{
+  margin-left: 30px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+h2 button
+{
+  margin-top: 5%;
+}
+
+.add-movie-form {
+  margin-bottom: 35rem;
+  width: 60% ;
+  height: 100px ;
+  margin-left: 200px;
+  margin-top: 20px;
+  
+}
+
+.add-movie-form h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.add-movie-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-movie-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-movie-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+ 
+}
+
+.add-movie-form button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.img_discription
+{
+  width: 30%;
+  height: 30%;
+  margin-left: 10px;
+  margin-top:20px;
+}
+
+.style_container
+{
+  border: 3px solid black; 
+    width: 55% ;
+    height: 900px ;
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+   
+
+   
+}
+
+.btn-alt
+{
+  
+  background-color: white;
+  align-items: end;
+}
+
+.style_box
+{
+  border: 3px solid black; 
+    width: 90% ;
+    height: 300px ;
+    margin-top: 10%;
+}
+
+.table-box {
+  border: 1px solid black;
+  padding: 40px;
+  width: 500px; /* Adjust the width to your preference */
+  margin: 0 auto;
+  height:400px; /* Center the box horizontally */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+.checkbox {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 1px solid blue;
+}
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.checkbox:checked:after {
+  background-color: blue;
+}
+
+.checkbox:checked:before {
+  content: "✓";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Footer Styles */
+
+footer{
+  background-color: #72E0AC;
+  margin-top: 70%;
+}
+
+.footerContainer{
+  width:90%;
+  padding: 30px 30px 8px;
+
+
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover{
+  background-color: #02075d;
+  transition: 0.5s;
+
+}
+
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav{
+  margin: 30px 0;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footerNav ul li a{
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+  opacity: 1;
+
+}
+
+.footerBottom{
+  background-color: #A3F7B5;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.footerBottom p{
+  color: black;
+
+}
+
+@media (max-width: 700px){
+  .footerNav ul{
+      flex-direction: column;
+  }
+  .footerNav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+}
+
+

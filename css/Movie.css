@@ -1,0 +1,77 @@
+/*IT22078650 AMARATUNGA Y.B.*/
+body
+{
+	background: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+	background-size:cover;
+	font-family :'Quicksand', sans-serif;
+}
+
+
+.movie_row{
+    display: flex;
+    justify-content: space-between;
+    margin: 75px;
+    
+}
+
+.image{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 250px;
+    height: 400px;
+}
+
+img{
+    max-width: 250px;
+    max-height: 400px;
+    border-radius: 25px;
+    border: 10px solid rgb(41, 88, 33);
+}
+
+.info {
+    position: absolute;
+    bottom: 0; 
+    right: 0; 
+    background-color:  rgb(41, 88, 33);
+    color: white;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 13px;
+    display: none;
+
+   
+}
+
+.buy {
+    position: absolute;
+    bottom: 40px; 
+    right: 0; 
+    background-color:  rgb(41, 88, 33);
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 13px;
+    display: none;
+    
+    
+}
+
+.buy:hover ,.info:hover {
+   
+    background-color:#044664;
+
+}
+
+.image:hover .buy{
+    display: block;
+}
+
+.image:hover .info{
+    display: block;
+}

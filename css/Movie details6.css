@@ -1,0 +1,324 @@
+
+/* Header Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family :'Quicksand', sans-serif;
+    background-color: #42A59F;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family :'Quicksand', sans-serif;
+}
+
+header {
+    
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1; 
+    background-color: #A3F7B5;
+    
+}
+
+ .header-top {
+    display: flex;
+    align-items: center;
+    left: 0;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 20px;
+    
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color:#72E0AC ;
+    padding: 15px 20px;
+    font-size: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #00755E;
+    font-weight: bold;
+    margin-right: auto;
+    text-shadow: 1px 1px 1px #00755E,
+    1px 2px 1px #00755E;
+    
+}
+
+.slogan {
+    font-size: 19px;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 35%;
+    font-family: monospace;
+    font-weight: italic;
+    color: #6D6C6C;
+    text-shadow: 0.5px 0.5px 0.5px #6D6C6C;
+    
+}
+    
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #707070;
+}
+
+.buy-tickets {
+    background-color: #EE7C54;
+    padding: 8px 16px;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user-actions a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.hover-effect:hover {
+    color: #707070;
+}
+
+@media (max-width: 700px){
+    .header-bottom{
+        flex-direction: column;
+    }
+    .user-actionst, .nav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+
+.body
+{
+    font-family: Arial, Helvetica, sans-serif; 
+
+
+}
+
+.Movie-details
+{
+    position: relative ;
+    height: 600px ;
+    width: 95%;
+    overflow: hidden ;
+    margin-bottom: 1.5rem ;
+    background-position: right;
+    margin-left: 40px;
+    margin-top: 10%;
+   
+
+}
+
+
+
+.coming-soon-box {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color:blue;
+  }
+  
+  .coming-soon-box h2 {
+    font-size: 24px;
+    color: white;
+  }
+  .Duration
+  {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem ;
+      margin-left: 80px;
+      color:white;
+  }
+  .Genres
+  {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem ;
+      margin-left: 400px;
+      color:white;
+      
+  }
+
+.story-line,
+.cast,
+.team {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.story-line p {
+  padding: 10px;
+}
+
+.cast ul,
+.team table {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 75px;
+}
+
+.cast li,
+.team td {
+  padding: 10px;
+  margin-left: 100px;
+}
+
+.team table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.team th,
+.team td {
+  border: 1px solid black;
+}
+
+.team th {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+
+/* Footer Styles */
+
+footer{
+    background-color: #72E0AC;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 30px 30px 8px;
+
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #02075d;
+    transition: 0.5s;
+
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+
+}
+
+.footerBottom{
+    background-color: #A3F7B5;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: black;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+
+
+
+
+

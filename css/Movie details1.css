@@ -1,0 +1,400 @@
+
+/* Header Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family :'Quicksand', sans-serif;
+    background: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+	background-size:cover;
+	font-family :'Quicksand', sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family :'Quicksand', sans-serif;
+}
+
+header {
+    
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1; 
+    background-color: #A3F7B5;
+    
+}
+
+ .header-top {
+    display: flex;
+    align-items: center;
+    left: 0;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 20px;
+    
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color:#72E0AC ;
+    padding: 15px 20px;
+    font-size: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #00755E;
+    font-weight: bold;
+    margin-right: auto;
+    text-shadow: 1px 1px 1px #00755E,
+    1px 2px 1px #00755E;
+    
+}
+
+.slogan {
+    font-size: 19px;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 35%;
+    font-family: monospace;
+    font-weight: italic;
+    color: #6D6C6C;
+    text-shadow: 0.5px 0.5px 0.5px #6D6C6C;
+    
+}
+    
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #707070;
+}
+
+.buy-tickets {
+    background-color: #EE7C54;
+    padding: 8px 16px;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user-actions a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.hover-effect:hover {
+    color: #707070;
+}
+
+@media (max-width: 700px){
+    .header-bottom{
+        flex-direction: column;
+    }
+    .user-actionst, .nav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+.body
+{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.Movie-details
+{
+    position: relative ;
+    height: 650px ;
+    width: 100%;
+    overflow: hidden ;
+    margin-bottom: 1.5rem ;
+    background-position: right;
+    margin-left: 120px;
+   
+
+}
+
+.button
+{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem ;
+    margin-left: 1050px ;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.btn-alt
+{
+    background-color: white ;
+    color: black ;
+    display: inline-block;
+    width: 75% ;
+    margin-top: 10px ;
+    padding:  .5rem .5rem;
+    text-align: center;
+    border: 2px solid black ;
+    border-radius: 5rem ;
+}
+
+.btn 
+{
+    display: inline-block;
+    padding:  .5rem .5rem;
+    background-color: white;
+    color: black;
+    width: 75% ;
+    text-align: center;
+    border: 2px solid black ;
+    border-radius: 5rem ;
+    margin-top: 15px ;
+    
+}
+.btn:hover
+{
+    background-color: orange;
+    color:white;
+    transition: .5s;
+}
+.btn-alt:hover
+{
+    background-color: orange;
+    color:white;
+    transition: .5s;
+}
+.Duration
+{
+    position: absolute;
+    bottom: 8rem;
+    left: 2rem ;
+    margin-left: 500px;
+    color:white;
+}
+.Genres
+{
+    position: absolute;
+    bottom: 8rem;
+    left: 2rem ;
+    margin-left: 700px;
+    color:white;
+    
+}
+
+h2
+{
+    margin-left: 120px;
+    font-size: 30px ;
+
+
+}
+.style 
+{
+    border: 3px solid black; 
+    width: 85% ;
+    height: 1200px ;
+    margin-left: 120px;
+    background-color: black;
+}
+
+.para
+{
+    font-size: 20px ;
+    margin-left: 40px;
+    color: white;
+}
+.title
+{
+    margin-left: 40px;
+    font-size: 27px ;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.image {
+	
+	width: 200px;
+    display: inline-block;
+    padding: 30px;
+}
+.image img
+{
+    border-radius: 50% ;
+    margin-left: 50px;
+    width: 200px ;
+    height: 200px;
+    
+    
+    
+    
+}
+
+.image_Name
+{
+    margin-left: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+.box
+{
+    width: 40%;
+    height: 50%;
+    padding: 60px;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+.box img
+{
+    width:100%;
+
+}
+
+.image_discription
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: white;
+}
+
+.box:hover
+{
+    transform: scale(1.1);
+    z-index :2;
+}
+
+/* Footer Styles */
+
+footer{
+    background-color: #72E0AC;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 30px 30px 8px;
+
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #02075d;
+    transition: 0.5s;
+
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+
+}
+
+.footerBottom{
+    background-color: #A3F7B5;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: black;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}

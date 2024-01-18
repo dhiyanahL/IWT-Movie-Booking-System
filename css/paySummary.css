@@ -1,0 +1,38 @@
+body
+{
+	background: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+	background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family :'Quicksand', sans-serif;
+}
+
+
+.receipt {
+    width: 690px;
+    height: 70vh;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white; 
+}
+
+h1 {
+    font-size: 26px; 
+    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+
+p {
+    font-size: 18px; 
+    margin: 20px 0;
+    text-align: justify;
+    margin-left: 200px;
+    
+}

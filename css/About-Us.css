@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(0deg, #08AEEA 0%, #2AF598 80%);
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px 50px;
+    padding: 200px;
+    box-sizing : border-box;
+    caret-color: transparent;
+}
+
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify; 
+}
+
+/* Style the typewriter effect for headings */
+.typewriter-section {
+    position: relative;
+}
+
+.typewriter-heading {
+    overflow: hidden;
+    border-right: 1px solid #000;
+    white-space: nowrap;
+    margin: 50px 50px;
+    padding: 50 px;
+    font-size: 36px;
+    animation: typing 3s steps(50) forwards;
+}
+
+/* Keyframes for typewriter effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+
+
+
+
+section {
+    margin-top: 40px;
+    text-align: justify; /* Center-align content within each section */
+}
+
+h1, h3 {
+    color: black;
+}
+
+p {
+    color: black;
+    line-height: 1.5;
+    font-size: 19px;;
+}
+
+
+.headings {
+    font-weight: bold;
+    
+}
+
+
+.para {
+    margin-left: 20px;
+}
+
+span
+{
+    font-style: italic;
+}
+
+.Footer_section {
+    margin-top: 40px;
+    font-style: bold;
+    font-size: 23px;
+    color: black;
+    text-align :center;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}

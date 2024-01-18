@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Open Sans", sans-serif;
+}
+
+.confirmation-box {
+    max-width: 450px;
+    margin: 50px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0056b3;
+}

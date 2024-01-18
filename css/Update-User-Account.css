@@ -1,0 +1,98 @@
+
+body
+{
+    margin: 50px 50px;
+    padding: 100px;
+    box-sizing : border-box;
+    font-family :'Quicksand', sans-serif;
+    display : flex;
+    justify-content: center ;
+    align-items: center;
+    background: linear-gradient(0deg, #08AEEA 0%, #2AF598 80%);
+}
+
+form {
+    border-radius: 4px;
+    border-style: groove;
+    padding: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: whitesmoke;
+    margin-bottom:20px;
+}
+
+
+h2
+{
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+
+.text_box input, .section_1 input, .section_2 input, .section_3 input
+{
+
+    width: 400px;
+    height : 60px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #465375;
+    border-radius: 4px;
+    
+    
+}
+
+
+
+
+input:focus 
+{
+    border: 4px solid #465375;
+  
+}
+
+
+.submit_btn, .pw_btn {
+    display:inline-block;
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+
+.submit_btn
+{
+    background-color: #A3F7B5;
+    
+}
+
+.pw_btn
+{
+    background-color: #42A59F;
+}
+
+.delete_btn
+{
+    display:inline-block;
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    background-color: #ff6242;
+    margin-right:130px;
+    margin-left:130px;
+}
+

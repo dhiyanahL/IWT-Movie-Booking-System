@@ -1,0 +1,51 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradiant(0deg,#08AEEA 0%,#2AF598 100%);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+header {
+    background-color: #42A59F;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.offer {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Custom styling for your offers */
+/* Modify the following styles to match your specific offers */
+.offer h2 {
+    font-size: 24px;
+}
+
+.offer p {
+    font-size: 16px;
+}
+
+.offer .details {
+    font-size: 14px;
+    color: #777;
+}

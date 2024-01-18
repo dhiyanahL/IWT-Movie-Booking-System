@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family :'Quicksand', sans-serif;
+  background: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+background-size:cover;
+font-family :'Quicksand', sans-serif;
+
+}
+
+header {
+  
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1; 
+  background-color: #51BEA1;
+  
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  left: 0;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0 20px;
+  
+}
+
+.header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color:#A3F7B5 ;
+  padding: 15px 20px;
+  font-size: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  margin-right: auto;
+  text-shadow: 1px 1px 1px black,
+  1px 2px 1px black;
+  
+}
+
+.slogan {
+  font-size: 19px;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 35%;
+  font-family: monospace;
+  font-weight: italic;
+  color: whitesmoke;
+  text-shadow: 0.5px 0.5px 0.5px whitesmoke;
+  
+}
+  
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 50px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #707070;
+}
+
+.buy-tickets {
+  background-color: #EE7C54;
+  padding: 8px 16px;
+  border-radius: 5px;
+  
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.user-actions a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.hover-effect:hover {
+  color: #707070;
+}
+
+@media (max-width: 700px){
+  .header-bottom{
+      flex-direction: column;
+  }
+  .user-actionst, .nav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+}
+.password-reset-form {
+    margin-bottom: 10px;
+    width: 60% ;
+    height: 100px ;
+    margin-left: 30px;
+    margin-top: 20px;
+   
+  }
+  
+  .password-reset-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .password-reset-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .password-reset-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .password-reset-form button 
+  { background-color: #000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+.style 
+{
+    border: 3px solid black; 
+    width: 30% ;
+    height: 750px ;
+    margin-left: 30px;
+    float: left;
+    margin-top: 10%;
+   
+}
+
+
+h1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+image img
+{
+    border-radius: 50% ;
+    width: 100px ;
+    height: 100px;
+    
+    
+}
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box
+{
+  height: 50px;
+  position: relative;
+
+  
+}
+
+.vertical-center
+{
+  margin-left: 180px;
+  position: absolute;
+  border: none;
+  top: 50%;
+  cursor: pointer;
+}
+
+h3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  margin-left: 5px;
+
+}
+
+p
+{
+  margin-left: 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+h2 button
+{
+  margin-top: 5%;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 65%;
+    padding: 30px;
+    
+    
+    
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+   
+} 
+
+.form {
+    display:grid;
+    padding:10px;
+}
+
+#addMoreButton {
+    margin-top: 15%;
+    border:none;
+    margin-left: 30px;
+    background-color:#42A59F;
+    font-size: 28px;
+}
+.container_button
+{
+   text-align: center;
+   margin-top: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.inline-button {
+    display: inline-block; 
+    margin: 5px; 
+    padding: 10px 30px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+.theater {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    width: 55%;
+    height: 60%;
+    float: center;
+    
+}
+#addTheater
+{
+    margin-top: 10%;
+    border:none;
+    margin-left: 30%;
+    background-color:#42A59F;
+    font-size: 28px;
+    
+}
+.theatersContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 65%;
+    padding: 30px;
+}
+
+
+.newTheater
+{
+    display:grid;
+    padding:10px;
+}
+.theater_form
+{
+    width: 20%;
+    margin-left: 30px;
+}
+
+
+
+/* Footer Styles */
+
+footer{
+  background-color: #51BEA1;
+  margin-top: auto;
+  position: bottom;
+  
+
+}
+
+
+/* Reference : https://www.youtube.com/watch?v=nkZz9DOBzBI&t=86s  */
+
+.footerContainer{
+  width: 100%;
+  padding: 30px 30px 8px;
+
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover{
+  background-color: #02075d;
+  transition: 0.5s;
+
+}
+
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav{
+  margin: 30px 0;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footerNav ul li a{
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+  opacity: 1;
+
+}
+
+.footerBottom{
+  background-color: #A3F7B5;
+  padding: 15px;
+  text-align: center;
+}
+
+.footerBottom p{
+  color: black;
+}
+
+@media (max-width: 700px){
+  .footerNav ul{
+      flex-direction: column;
+  }
+  .footerNav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+  }
+}
