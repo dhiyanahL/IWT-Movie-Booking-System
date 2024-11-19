@@ -1,4 +1,4 @@
-//IT22055262 - LIYAUDEEN D.H //
+//- LIYAUDEEN D.H //
 function passwordVisibility(){
 	var p = document.getElementById("pw");
 	
