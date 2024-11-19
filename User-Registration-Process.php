@@ -1,4 +1,4 @@
-<!--IT22055262-LIYAUDEEN D.H-->
+<!--LIYAUDEEN D.H-->
 <?php
 require 'config.php';
 
