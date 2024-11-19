@@ -1,8 +1,21 @@
 # IWT-Movie Booking-System
- IWT - Y1S2 Web Application Project.
 
- This web application project was done for Y1 S2 for the Internet and Web Technologies Module, using PHP, JS, HTML and CSS.
+An Internet and Web Technology project implementing a movie booking platform, designed to provide users with a seamless experience for selecting movies, scheduling showtimes, and booking tickets online.
 
-My role was to complete the 4 CRUD operations for the User functionality using PHP for backend, JS for validation and CSS for formatting.
-My work included coding the CRUD operations for User Login, User Profile Viewing + Updating + Deleting. 
-As for the static pages, I completed the About Us page giving viewers a brief understanding of the website.
+Features :-
+User-friendly interface for browsing available movies.
+Options to select showtimes and book tickets.
+Support for user accounts and secure payment processing.
+
+Tech Stack :-
+Frontend: HTML,CSS,JS
+Backend: PHP
+Database: MySQL
+
+I contributed to the User functionality module by implementing the full suite of CRUD operations using PHP for backend processing, JavaScript for form validation, and CSS for responsive design and formatting.
+
+Specifically, my work included:
+
+Developing the functionalities for User Login, Profile Viewing, Profile Updating, and Profile Deletion.
+Ensuring secure and efficient data handling for all user-related operations.
+In addition to these dynamic features, I also designed the About Us page, providing visitors with a clear and concise overview of the website's purpose and objectives.
